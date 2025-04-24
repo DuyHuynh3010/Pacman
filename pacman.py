@@ -11,7 +11,7 @@ class Pacman:
         self.rect.x += dx
         self.rect.y += dy
 
-        # Kiểm tra va chạm với các bức tường
+
         for wall in walls:
             if self.rect.colliderect(wall.rect):
                 if dx > 0:
